@@ -1,9 +1,9 @@
 n= input()
-list=input().split()
+plans=input().split()
 x=1
 y=1
 
-for i in list:
+for i in plans:
     if i=='L':
       if y!=1:
         y-=1
@@ -21,4 +21,5 @@ for i in list:
         x+=1
 
 print(x,y)
-      
+
+
